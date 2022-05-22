@@ -133,90 +133,6 @@ header #menu{
     display: none;
 }
 
-.login-form{
-    height:100%;
-    width:100%;
-    position: fixed;
-    top:-120%; left: 0;
-    z-index: 1000;
-    background:rgba(0,0,0,.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-form.popup{
-    top:0;
-}
-
-.login-form form{
-    width:35rem;
-    background:#fff;
-    margin:0 2rem;
-    padding:1rem 3rem;
-    border-radius: .5rem;
-    box-shadow: 0 .1rem .3rem #333;
-    position: relative;
-}
-
-.login-form form h3{
-    font-size: 3rem;
-    color:#f39c12;
-    padding:1rem 0;
-}
-
-.login-form form .box{
-    width:100%;
-    padding:1rem 0;
-    margin:1rem 0;
-    border-bottom: .2rem solid #666;
-    font-size: 1.6rem;
-    color:#333;
-    text-transform: none;
-}
-
-.login-form form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.login-form form .box:focus{
-    border-color: #f39c12;
-}
-
-.login-form form .box:nth-child(3){
-    margin-bottom: 5rem;
-}
-
-.login-form form p{
-    font-size: 1.4rem;
-    color:#666;
-    padding:.5rem 0;
-}
-
-.login-form form p a{
-    color:#f39c12;
-}
-
-.login-form form .btn{
-    width: 100%;
-    margin:2rem 0;
-}
-
-.login-form form .btn:hover{
-    background:#444;
-}
-
-.login-form form .fa-times{
-    position: absolute;
-    top:1.5rem; right:2rem;
-    font-size: 2.5rem;
-    cursor: pointer;
-    color:#999;
-}
-
-.login-form form .fa-times:hover{
-    color:#444;
-}
 
 .home{
     display: flex;
@@ -395,60 +311,7 @@ header #menu{
     color:#fff;
 }
 
-.contact .row{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.contact .row form{
-    flex:1 1 50rem;
-    background:#222;
-    padding:2rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-    align-items: flex-start;
-}
-
-.contact .row form .box{
-    height:5rem;
-    width:49%;
-    border:.1rem solid #eee;
-    padding:0 1rem;
-    margin:1rem 0;
-    font-size: 1.7rem;
-    color:#fff;
-    background:none;
-    text-transform: none;
-}
-
-.contact .row form .box:focus{
-    border-color: #f39c12;
-}
-
-.contact .row form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.contact .row form .address{
-    height:15rem;
-    padding:1rem;
-    resize: none;
-    width:100%;
-}
-
-.contact .row form .btn:hover{
-    background:#fff;
-    color:#333;
-}
-
-.contact .row .image img{
-    height: 80vh;
-    margin-top: 2rem;
-}
 
 .footer{
     background:#333;
@@ -592,10 +455,6 @@ header #menu{
 
     html{
         font-size: 50%;
-    }
-
-    .contact .row form .box{
-        width:100%;
     }
 
 }
