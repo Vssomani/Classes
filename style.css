@@ -339,7 +339,8 @@ header #menu{
     padding:1rem 0;
 }
 
-
+.contact .credit a{
+    color:#f39c12
 
 .footer{
     background:#333;
