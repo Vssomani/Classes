@@ -223,7 +223,7 @@ header #menu{
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background:url(home-bg.jpg) no-repeat;
+    background:url(../home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -375,7 +375,7 @@ header #menu{
 
 .teacher{
     text-align: center;
-    background:url(teachers.jfif) no-repeat;
+    background:url(../teachers.jfif) no-repeat;
     background-size: cover;
     background-position: bottom;
 }
