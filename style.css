@@ -305,6 +305,19 @@ header #menu{
 
 .contact{
     background:#fff;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .image{
+    flex:1 1 40rem;
+}
+
+.contact .image img{
+    height:65vh;
+    width:100%;
 }
 
 .contact .heading{
