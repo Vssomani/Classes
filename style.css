@@ -307,7 +307,14 @@ header #menu{
     flex-wrap: wrap;
 }
 
+.contact .image{
+    flex:1 1 40rem;
+}
 
+.contact .image img{
+    height:65vh;
+    width:75%;
+}
 
 .contact .heading{
     color:#fff;
