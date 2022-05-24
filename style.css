@@ -194,7 +194,7 @@ header #menu{
 }
 
 .about .image img{
-    height:65vh;
+    height:100%;
     width:100%;
 }
 
@@ -286,6 +286,11 @@ header #menu{
 }
 
 .teacher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
     text-align: center;
     background:url(../Vedashree%20Somani.JPG) no-repeat;
     background-size: cover;
