@@ -299,8 +299,9 @@ header #menu{
 
 .teacher p{
     font-size: 1.8rem;
+    align-items: Left;
     color:#666;
-    width:65rem;
+    width:75rem;
     margin:1rem auto;
 }
 
