@@ -325,8 +325,10 @@ header #menu{
 }
 
 .contact .content{
+    width:65rem;
     margin:1rem auto;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .contact .content h3{
