@@ -299,6 +299,8 @@ header #menu{
     color:#666;
     width:65rem;
     margin:1rem auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .contact{
