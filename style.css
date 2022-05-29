@@ -286,7 +286,7 @@ header #menu{
 }
 
 .teacher{
-   
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -299,7 +299,6 @@ header #menu{
 
 .teacher p{
     font-size: 1.8rem;
-    text-align: left;
     color:#666;
     width:65rem;
     margin:1rem auto;
@@ -307,7 +306,7 @@ header #menu{
 
 .contact{
     background:#fff;
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -339,7 +338,6 @@ header #menu{
     font-size: 1.5rem;
     color:#666;
     padding:1rem 0;
-    display: flex;
 }
 
 .contact .content p i{
