@@ -290,11 +290,7 @@ header #menu{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
     text-align: center;
-    background:url(../Vedashree%20Somani.JPG) no-repeat;
-    background-size: cover;
-    background-position: bottom;
 }
 
 .teacher p{
@@ -403,19 +399,6 @@ header #menu{
 .footer .credit a{
     color:#f39c12
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
