@@ -300,6 +300,7 @@ header #menu{
     width:65rem;
     margin:1rem auto;
     margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .contact{
@@ -325,6 +326,7 @@ header #menu{
 
 .contact .content{
     flex:1 1 40rem;
+    margin-left: 4rem
 }
 
 .contact .content h3{
@@ -336,7 +338,6 @@ header #menu{
     font-size: 1.5rem;
     color:#666;
     padding:1rem 0;
-    margin-left: 4rem
 }
 
 .contact .content p i{
